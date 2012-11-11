@@ -1,1 +1,14 @@
-Sorry this page does not exist =(
+---
+layout: page
+title: 4O4 ERROR
+tagline: Sorry this page does not exist =( but maybe you are intresting in following one
+---
+{% include JB/setup %}
+
+<ul class="posts">
+  {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+	</ul>
+
+

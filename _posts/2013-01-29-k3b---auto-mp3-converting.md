@@ -2,7 +2,7 @@
 layout: post
 title: "k3b   auto mp3 converting"
 description: "How to allow k3b convert mp3 files on Fedora"
-category: ["GNU/Linux"]
+category: "GNU/Linux"
 tags: [k3b, feodra, linux, mp3]
 ---
 

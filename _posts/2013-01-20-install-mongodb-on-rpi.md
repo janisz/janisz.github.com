@@ -2,7 +2,7 @@
 layout: post
 title: "Install MongoDB on rPI"
 description: "Step by step instruction how to install MongoDB on raspberry pi"
-category: Raspberry
+category: 'RaspberryPi'
 tags: [raspberry pi, raspberry, pi, MongoDB, c++]
 ---
 

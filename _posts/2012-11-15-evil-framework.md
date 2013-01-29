@@ -3,7 +3,7 @@ layout: post
 title: "Evil Framework"
 tagline: "about non orderd but distinct select"
 description: "short story about my first problem woth EF"
-category: ['C#']
+category: 'C#'
 tags: [EF, Entity, Entity Framework, Framework, SQL]
 ---
 

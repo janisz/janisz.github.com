@@ -6,7 +6,6 @@ description: "short story about my first problem woth EF"
 category: ['C#']
 tags: [EF, Entity, Entity Framework, Framework, SQL]
 ---
-{% include JB/setup %}
 
 I was able to create some stuff using EF. I must admit that EF is nice tool. It help a lot with basic daily database work. 
 I’m not very experienced ORM user, but must admit - EF is so easy to use and got all features of LINQ expressions.

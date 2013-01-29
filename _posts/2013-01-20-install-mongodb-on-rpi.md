@@ -5,7 +5,6 @@ description: "Step by step instruction how to install MongoDB on raspberry pi"
 category: Raspberry
 tags: [raspberry pi, raspberry, pi, MongoDB, c++]
 ---
-{% include JB/setup %}
 
 I'm proud user of Raspberry PI. I had been waiting for it about 5 months
 but at last I got it. If you don't know what Raspberry Pi is I can recommend

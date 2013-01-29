@@ -5,7 +5,6 @@ tagline: "First post on my blog"
 description: "Just say hello"
 tags: [hello, hello world]
 ---
-{% include JB/setup %}
 
 First post on my brand new Jekyll blog. Just for testing and improving my skills in ruby and also in english. 
 Probably most posts will be written in english but sometimes I'll also (sometimes) write in Polish which is my primary language, apart from C/C++.

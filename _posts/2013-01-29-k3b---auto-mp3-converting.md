@@ -5,7 +5,6 @@ description: "How to allow k3b convert mp3 files on Fedora"
 category: ["GNU/Linux"]
 tags: [k3b, feodra, linux, mp3]
 ---
-{% include JB/setup %}
 
 Have you ever face with k3b error "MP3 Audio Decoder plugin not found."
 Here if simple solution for it:

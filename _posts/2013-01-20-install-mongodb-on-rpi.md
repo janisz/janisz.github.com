@@ -31,7 +31,7 @@ Here are steps to install [MongoDB](http://www.mongodb.org/) on device
     sudo mkdir /data/db -p
     sudo <where/you/want/installed/it>/mongod --fork --logpath /var/log/mongodb.log
 
-Compiling process could take couple hours so it might be reasonable to run `sons` in
+Compiling process could take couple hours so it might be reasonable to run `scons` in
 using `nohup` or detach session with `screen`.
 
 To check if it's running call `tail -f /var/log/mongodb.log`. You should see

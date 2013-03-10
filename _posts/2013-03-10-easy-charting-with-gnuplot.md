@@ -49,7 +49,7 @@ change it with sed. I wanted to display values from first and fourth column.
     plot 'data.tsv' using 4:1:
 
 Ok, now a little bit harder. I’ve got error for every entry stored in 6th and 
-3th collumn. I only added this collumn and proper flag to get nice error marks
+3th column. I only added this column and proper flag to get nice error marks
 around my points.
 
     plot 'data.tsv' using 4:1:6:3 w xyerrorbars

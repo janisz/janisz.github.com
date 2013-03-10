@@ -7,17 +7,17 @@ tags: ["gnuplot", "gnu", "charts", "linux"]
 ---
 {% include JB/setup %}
 
-Lastly I had to prepare simple chart for some phisic labolatory. It was only a
+Lastly I had to prepare simple chart for some physic laboratory. It was only a
 bunch of points, and fitted function. At first I tried [GDocs](https://drive.google.com)
 but it wasn’t designed for it. Then I switched to 
 [LibreOffice Calc](http://www.libreoffice.org/features/calc/), but I have some 
-problems with definig data sets and can’t get desired shape of chart. I also tried
+problems with defining data sets and can’t get desired shape of chart. I also tried
 [gnumeric](http://projects.gnome.org/gnumeric/)
-but it crashed just after star so I search for another sollution. I hear
+but it crashed just after star so I search for another solution. I hear
 d about [gnuplot](http://www.gnuplot.info/), but wait I need only to put some
 points with their errors, do I really need a console tool?
-I tried and it was not hard and IMO easier than countless options in neverending
-graphical wizzards since you must really know what you want to achieve.
+I tried and it was not hard and IMO easier than countless options in never ending
+graphical wizards since you must really know what you want to achieve.
 
 
 My data looks like this and were stored in external [CSV](http://en.wikipedia.org/wiki/Comma-separated_values)
@@ -43,8 +43,8 @@ file.
 
 
 Firstly I need to load my data from file. Sounds easy and in fact it was. But 
-gnuplot use it’s own standart of csv (tab separated) so it wasn't big deal to
-change it with sed. I wanted to display values from first and fourth collumn. 
+gnuplot use it’s own standard of csv (tab separated) so it wasn't big deal to
+change it with sed. I wanted to display values from first and fourth column. 
 
     plot 'data.tsv' using 4:1:
 
@@ -54,7 +54,7 @@ around my points.
 
     plot 'data.tsv' using 4:1:6:3 w xyerrorbars
 
-Whats next? Function that fit my measuements best. Actually I know that it should
+Whats next? Function that fit my measurements best. Actually I know that it should
 be line function. I jut declare it and let gnuplot do rest.
 
     f(x) = a*x+b
@@ -97,5 +97,5 @@ Oh, and one more thing I saved my workspace to use it later
 
     save 'plot1.gnu'
 
-And the reult of
+And the final result
 <img src="/assets/images/output.png" alt="chart">

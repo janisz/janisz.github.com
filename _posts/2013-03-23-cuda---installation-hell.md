@@ -22,7 +22,7 @@ But hold on. Does it support GNU/Linux? Yes and no. nVidia supports only main st
 
 2. Install proprietary driver. CUDA will not working with any other driver. And what’s worst nVidia close source of their drivers so nobody know how it really works. IMO best comment on this is [Linus Torvalds](http://youtu.be/IVpOyKCNZYw?t=1m45s)
 
-	To install proprietary driver you should go [here](http://www.geforce.com/drivers) and choose your card and system. Once you download it go to text mode `sudo init 2` and `sudo ` and reboot after installation.
+	To install proprietary driver you should go [here](http://www.geforce.com/drivers) and choose your card and system. Once you download it go to text mode `sudo init 2` and `sudo NVIDIA-Linux-*-.run` and reboot after installation.
 
 3. Download [CUDA 5.0 Toolkit](https://developer.nvidia.com/cuda-downloads) and install it but without driver (you already did it). CUDA toolkit supports only GCC in 4.6 or lower so launch it with `-override compiler`
 

@@ -21,3 +21,5 @@ But it was not working like that. It tried to download something. And than just 
 
 
 OK, it's not so hard. Why Ubuntu GUI faild - no idea. Why I waste my time to write about it. The main reason to write this post is to test [showterm](https://showterm.herokuapp.com/).
+
+**Edit:** If you really need GUI archiver manager (sometimes it's really useful) try [B1](http://b1.org/)

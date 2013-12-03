@@ -73,3 +73,21 @@ To help you understand the process here is small glossary
 * *Idefix*, *Obelix* - new servers that allows connection only from Asterix
 
 In other words *Obelix* and *Idefix* can talk only with *Asterix* who can talk with anybody (e.g *Panoramix*)
+
+**EDIT**
+
+All I wrote above works fine. There could be problem if your SSH connection is idle for long time and server may
+close connection (it could be prevented by adding `KeepAlive` parameter in configuration).
+I was searching for better solution and I found it. It turns out that SSH has described feature built in and all I
+need to do is to add proper configuration entry. Here is how it should look like
+
+	Host Asterix
+	        HostName asterix.domain.pl
+	Host Obelix
+	        ProxyCommand ssh -q -W %h:%p Asterix
+	        HostName obelix.domain.pl
+	Host Idefix
+	        ProxyCommand ssh -q -W %h:%p Asterix
+	        HostName idefix.domain.pl
+
+

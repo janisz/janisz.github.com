@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Janisz's blog"
-tagline: "about software, programing and everything else"
+title: "Code: the final frontier"
+tagline: "To source... and beyond!"
 ---
 {% include JB/setup %}
 

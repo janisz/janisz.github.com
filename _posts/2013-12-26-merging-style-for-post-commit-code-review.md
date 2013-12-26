@@ -51,10 +51,10 @@ branches merged over time.
 I'll show what I'm talking about in simple example. Let's assume that we branch on feature branch and make our work while
 somebody commit on master branch. On left is normal merging while right side shows merging with rebase
 
-
+<div>
 <img style="margin: 10px;" src="/assets/images/default_merging.png" alt="FileZilla logo">
 <img style="margin: 10px;" src="/assets/images/rebase_merging.png" alt="FileZilla logo">
-
+</div>
 
 OK, this is silly example but when there will be more branches we will end with similar image as from first example. When
 we rebase our feature branch onto branch that we want to merge with it will be totally clear what we did. Of course this

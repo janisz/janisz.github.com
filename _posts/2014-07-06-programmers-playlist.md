@@ -16,33 +16,33 @@ unintentional.
 My absoulutely favourite song. Whats more great it's available directly on Spotify so I added it to my daily playlist.
 Story told by Jonathan Culton is so true and what's more important non programming folks could understand it too.
 
-{% youtube 5W_wd9Qf0IE %}
+<iframe width="100%" height="315" src="//www.youtube.com/embed/5W_wd9Qf0IE" > </iframe>
 
 ### Java Zone
 Orginally perfomed by Lady Java (do not confuse with Lady Gaga).
 
-{% youtube Mk3qkQROb_k %}
+<iframe width="100%" height="315" src="//www.youtube.com/embed/Mk3qkQROb_k" > </iframe>
 
 ### And so you code
 From time to time, I do mechanical work that I've done before thousand times but for some reason I can't automate it.
 This help me keep rhythm.
 
-{% youtube Eq3CuMDXaPs %}
+<iframe width="100%" height="315" src="//www.youtube.com/embed/Eq3CuMDXaPs"> </iframe>
 
 
 ### Java Life (Code Hard)
 
-{% youtube JSspDzmoUVA %}
+<iframe width="100%" height="315" src="//www.youtube.com/embed/JSspDzmoUVA"> </iframe>
 
 ### Write in C
 If you like Beatles you gonna love it.
 
-{% youtube 1S1fISh %}
+<iframe width="100%" height="315" src="//www.youtube.com/embed/1S1fISh-pag"> </iframe>
 
 ### Free Software Song
 Actually I don't really like this song but I really appreciate RMS point o view
 
-{% youtube vUU6BKc_sHI %}
+<iframe width="100%" height="315" src="//www.youtube.com/embed/vUU6BKc_sHI"> </iframe>
 
 
 
@@ -52,8 +52,8 @@ And last but not least some contribution from my own country.
 ### Projekt Expowiak (Refucktoring)
 Only people who has fight with legacy code and try to modernize it could understand how hard work it is.
  
-{% youtube 3cZzRi9c9FQ %}
+<iframe width="100%" height="315" src="//www.youtube.com/embed/3cZzRi9c9FQ"> </iframe>
 
 ### Internety robie (Internet maker)
 
-{% youtube cc11MqPqBxc %}
+<iframe width="100%" height="315" src="//www.youtube.com/embed/cc11MqPqBxc"> </iframe>

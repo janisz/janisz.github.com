@@ -57,3 +57,7 @@ Only people who has fight with legacy code and try to modernize it could underst
 ### Internety robie (Internet maker)
 
 <iframe width="100%" height="315" src="//www.youtube.com/embed/cc11MqPqBxc"> </iframe>
+
+### Smutny programista (Sad progeammer)
+
+<iframe width="100%" height="315" src="//www.youtube.com/embed/Ucg5BYo_gw0"> </iframe>
